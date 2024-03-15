@@ -27,6 +27,9 @@
     .mainPageContainer{
         height:100vh;
     }
+    .footerHeader{
+        font-size:48px !important;
+    }
     .gameChanger{
         margin-top:40px;
         display:flex;
@@ -246,7 +249,7 @@
     gap:7px;
     transform: skew(-8deg);
     font-family: SequelSans, Helvetica Neue, sans-serif !important;
-    font-size: 50px;
+    font-size: 8vw;
     letter-spacing: 0px;
     color: #fff;
     text-align: left;
@@ -264,9 +267,13 @@
     .mainPageContainer{
         display:flex;
         flex-direction:column;
-        width:100vw;
+        /* width:100vw; */
         height:127vh;
     }
+    .header{
+        font-size:10vw;
+    }
+    
     .mainPageLeft{
         display:flex;
         flex-direction:column;
@@ -276,6 +283,7 @@
         color:white;
         font-family:'roboto';
         padding-right:6px;
+        box-sizing: border-box;
     }
     .mainPageRight{
         display:none;
@@ -287,7 +295,8 @@
         color:white;
         padding-left:6%;
         background-color:#a5243b;
-        height:100vh;
+        height:110vh;
+        /* width:100vw; */
     }
     .footer1{
         width:90%;
