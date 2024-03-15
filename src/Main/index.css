@@ -23,7 +23,7 @@
     height:53px;
     width:53px;
 }
-@media screen and (min-width:740px){
+@media screen and (min-width:800px){
     .mainPageContainer{
         height:100vh;
     }
@@ -263,7 +263,8 @@
 .address{
     padding-left: 0 !important;
 }
-@media screen and (max-width:740px){
+
+@media screen and (max-width:800px){
     .mainPageContainer{
         display:flex;
         flex-direction:column;
@@ -356,4 +357,42 @@
     }
     
       
+}
+@media only screen and (min-width: 800px) and (max-width: 870px){
+    .mainPageLeft{
+        width:60vw;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+    /* Styles to be applied for screens between 768px and 1024px wide */
+    .mainPageLeft{
+        height:120vh;
+    }
+    .footer{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap:wrap;
+        color:white;
+        padding-left:6%;
+        background-color:#a5243b;
+        height:68vh;
+        padding:17px;
+        gap:40px;
+    }
+    .footer1{
+        width:40%;
+    }
+    .footer2{
+        width:40%;
+    }
+    .footer2-highlight{
+        font-weight:500;
+    }
+    .footer3{
+        width:40%;
+    }
+    .footer4{
+        width:40%;
+    }
 }
